@@ -1,0 +1,43 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-image: url("https://source.unsplash.com/random/3840x2160");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 180px 0;
+}
+
+.container {
+  padding: 32px;
+  background-color: white;
+  padding: 24px;
+  margin: 32px;
+  border-radius: 8px;
+  box-shadow: 2px 2px darkslategray;
+}
+
+.datetime {
+  text-align: center;
+  display: block;
+  font-size: 80px;
+  margin: 0;
+}
